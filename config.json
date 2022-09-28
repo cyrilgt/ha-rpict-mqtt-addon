@@ -1,9 +1,9 @@
 {
   "name": "RPICT-MQTT",
   "version": "0.0.1",
-  "slug": "rpict-mqtt",
+  "slug": "rpict_mqtt",
   "description": "RPICT to MQTT",
-  "url": "https://github.com/gtricot/rpict-mqtt",
+  "url": "https://github.com/cyrilgt/ha-rpict-mqtt-addon",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
