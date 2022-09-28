@@ -35,12 +35,12 @@
     },
     "Irms7": {
         "type": "float",
-        "unit_of_measurement": "W",
+        "unit_of_measurement": "A",
         "device_class": "current"
     },
     "Irms8": {
         "type": "float",
-        "unit_of_measurement": "W",
+        "unit_of_measurement": "A",
         "device_class": "current"
     }
 }
