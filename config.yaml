@@ -20,13 +20,6 @@ privileged:
   - SYS_RAWIO
 devices:
   - /dev/ttyAMA0
-environment:
-  MQTT_URL: "mqtt://127.0.0.1:1883"
-  MQTT_USER: ""
-  MQTT_PASSWORD: ""
-  MQTT_BASE_TOPIC: "rpict"
-  ABSOLUTE_VALUES: "false"
-  SENSOR_VALUE_THRESHOLD: "2"
 options:
   MQTT_URL: "mqtt://127.0.0.1:1883"
   MQTT_USER: ""
@@ -34,6 +27,7 @@ options:
   MQTT_BASE_TOPIC: "rpict"
   ABSOLUTE_VALUES: "false"
   SENSOR_VALUE_THRESHOLD: "2"
+  DEVICE_MAPPING: "RPICT8.json"
 schema:
   MQTT_URL: "str"
   MQTT_USER: "str"
@@ -41,3 +35,4 @@ schema:
   MQTT_BASE_TOPIC: "str"
   ABSOLUTE_VALUES: "str"
   SENSOR_VALUE_THRESHOLD: "str"
+  DEVICE_MAPPING: "str"
