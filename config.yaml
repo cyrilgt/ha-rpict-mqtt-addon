@@ -18,14 +18,6 @@ gpio: true
 privileged:
   - SYS_RAWIO
 devices:
-  - /dev/mem
-  - /dev/gpiomem
-map:
-  - config:rw
-  - share:rw
-  - ssl
-options:
-  configuration_file: /config/mqtt-io/config.yml
-schema:
-  configuration_file: str
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  - /dev/ttyAMA0
+options: { "MQTT_URL": "mqtt://localhost:1883", "MQTT_USER": "", "MQTT_PASSWORD": "", "MQTT_BASE_TOPIC": "rpict", "ABSOLUTE_VALUES": "false", "SENSOR_VALUE_THRESHOLD": "2"},
+schema: { "MQTT_URL": "str", "MQTT_USER": "str", "MQTT_PASSWORD": "str", "MQTT_BASE_TOPIC": "str", "ABSOLUTE_VALUES": "str", "SENSOR_VALUE_THRESHOLD": "str", }
