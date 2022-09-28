@@ -19,8 +19,15 @@ privileged:
   - SYS_RAWIO
 devices:
   - /dev/ttyAMA0
+environment:
+  MQTT_URL: "mqtt://127.0.0.1:1883"
+  MQTT_USER: ""
+  MQTT_PASSWORD: ""
+  MQTT_BASE_TOPIC: "rpict"
+  ABSOLUTE_VALUES: "false"
+  SENSOR_VALUE_THRESHOLD: "2"
 options:
-  MQTT_URL: "mqtt://localhost:1883"
+  MQTT_URL: "mqtt://127.0.0.1:1883"
   MQTT_USER: ""
   MQTT_PASSWORD: ""
   MQTT_BASE_TOPIC: "rpict"
