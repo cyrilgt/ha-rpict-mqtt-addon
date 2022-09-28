@@ -3,44 +3,44 @@
         "type": "integer",
         "unit_of_measurement": "#"
     },
-    "P1": {
+    "Irms1": {
         "type": "float",
-        "unit_of_measurement": "W",
+        "unit_of_measurement": "A",
         "device_class": "power"
     },
-    "P2": {
+    "Irms2": {
         "type": "float",
-        "unit_of_measurement": "W",
-        "device_class": "power"
+        "unit_of_measurement": "A",
+        "device_class": "current"
     },
-    "P3": {
+    "Irms3": {
         "type": "float",
-        "unit_of_measurement": "W",
-        "device_class": "power"
+        "unit_of_measurement": "A",
+        "device_class": "current"
     },
-    "P4": {
+    "Irms4": {
         "type": "float",
-        "unit_of_measurement": "W",
-        "device_class": "power"
+        "unit_of_measurement": "A",
+        "device_class": "current"
     },
-    "P5": {
+    "Irms5": {
         "type": "float",
-        "unit_of_measurement": "W",
-        "device_class": "power"
+        "unit_of_measurement": "A",
+        "device_class": "current"
     },
-    "P6": {
+    "Irms6": {
         "type": "float",
-        "unit_of_measurement": "W",
-        "device_class": "power"
+        "unit_of_measurement": "A",
+        "device_class": "current"
     },
-    "P7": {
+    "Irms7": {
         "type": "float",
         "unit_of_measurement": "W",
-        "device_class": "power"
+        "device_class": "current"
     },
-    "P8": {
+    "Irms8": {
         "type": "float",
         "unit_of_measurement": "W",
-        "device_class": "power"
+        "device_class": "current"
     }
 }
