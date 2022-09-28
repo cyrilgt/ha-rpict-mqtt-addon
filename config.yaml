@@ -19,5 +19,5 @@ privileged:
   - SYS_RAWIO
 devices:
   - /dev/ttyAMA0
-options: { "MQTT_URL": "mqtt://localhost:1883", "MQTT_USER": "", "MQTT_PASSWORD": "", "MQTT_BASE_TOPIC": "rpict", "ABSOLUTE_VALUES": "false", "SENSOR_VALUE_THRESHOLD": "2"},
-schema: { "MQTT_URL": "str", "MQTT_USER": "str", "MQTT_PASSWORD": "str", "MQTT_BASE_TOPIC": "str", "ABSOLUTE_VALUES": "str", "SENSOR_VALUE_THRESHOLD": "str", }
+options: { "MQTT_URL": "mqtt://localhost:1883", "MQTT_USER": "", "MQTT_PASSWORD": "", "MQTT_BASE_TOPIC": "rpict", "ABSOLUTE_VALUES": "false", "SENSOR_VALUE_THRESHOLD": "2" }
+schema: { "MQTT_URL": "str", "MQTT_USER": "str", "MQTT_PASSWORD": "str", "MQTT_BASE_TOPIC": "str", "ABSOLUTE_VALUES": "str", "SENSOR_VALUE_THRESHOLD": "str" }
