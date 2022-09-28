@@ -1,0 +1,46 @@
+{
+    "NodeID": {
+        "type": "integer",
+        "unit_of_measurement": "#"
+    },
+    "P1": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "P2": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "P3": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "P4": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "P5": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "P6": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "P7": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "P8": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    }
+}

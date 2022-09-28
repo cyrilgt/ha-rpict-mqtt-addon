@@ -1,0 +1,41 @@
+{
+  "name": "rpict-mqtt-app",
+  "version": "1.0.0",
+  "description": "Publish LeChacal RPICT series data to MQTT topics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index | bunyan -L -o short",
+    "lint": "eslint '**/*.js'",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtricot/rpict-mqtt.git"
+  },
+  "keywords": [
+    "lechacal",
+    "rpict",
+    "mqtt"
+  ],
+  "author": "gtricot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtricot/rpict-mqtt/issues"
+  },
+  "homepage": "https://github.com/gtricot/rpict-mqtt#readme",
+  "dependencies": {
+    "config-yml": "0.10.3",
+    "@serialport/parser-readline": "9.2.4",
+    "async-mqtt": "2.6.1",
+    "bunyan": "1.8.15",
+    "serialport": "9.2.4"
+  },
+  "devDependencies": {
+    "eslint": "8.0.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-jest": "25.0.5",
+    "jest": "27.2.5",
+    "rewire": "5.0.0"
+  }
+}

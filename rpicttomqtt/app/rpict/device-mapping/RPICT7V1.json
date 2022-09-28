@@ -1,0 +1,81 @@
+{
+    "NodeID": {
+        "type": "integer",
+        "unit_of_measurement": "#"
+    },
+    "RP1": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "RP2": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "RP3": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "RP4": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "RP5": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "RP6": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "RP7": {
+        "type": "float",
+        "unit_of_measurement": "W",
+        "device_class": "power"
+    },
+    "Irms1": {
+        "type": "float",
+        "unit_of_measurement": "mA",
+        "device_class": "current"
+    },
+    "Irms2": {
+        "type": "float",
+        "unit_of_measurement": "mA",
+        "device_class": "current"
+    },
+    "Irms3": {
+        "type": "float",
+        "unit_of_measurement": "mA",
+        "device_class": "current"
+    },
+    "Irms4": {
+        "type": "float",
+        "unit_of_measurement": "mA",
+        "device_class": "current"
+    },
+    "Irms5": {
+        "type": "float",
+        "unit_of_measurement": "mA",
+        "device_class": "current"
+    },
+    "Irms6": {
+        "type": "float",
+        "unit_of_measurement": "mA",
+        "device_class": "current"
+    },
+    "Irms7": {
+        "type": "float",
+        "unit_of_measurement": "mA",
+        "device_class": "current"
+    },
+    "Vrms": {
+        "type": "float",
+        "unit_of_measurement": "V",
+        "device_class": "voltage"
+    }
+}
