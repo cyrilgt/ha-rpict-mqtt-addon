@@ -13,6 +13,7 @@ arch:
   - i386
 init: false
 homeassistant_api: true
+legacy: true
 uart: true
 gpio: true
 privileged:
